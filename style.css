@@ -255,7 +255,7 @@ ul
     margin: auto;
     
 }
-.login-container
+.login-container, .signup-container
 {
     
     background-color: rgb(206, 206, 206);
@@ -273,7 +273,7 @@ ul
     
     
 }
-.login-container form
+.login-container form , .signup-container form
 {
     
     display: flex;
@@ -282,7 +282,7 @@ ul
     width: 80%;
     padding: 20px;
 }
-.login-container form button
+.login-container form button, .signup-container form button
 {
     background-color: grey;
     color: #fff;
@@ -344,6 +344,10 @@ footer
 
 }
 .login-container
+{
+    width: 300px;
+}
+.signup-container
 {
     width: 300px;
 }
